@@ -166,3 +166,4 @@
 /Users/usermacmini1/Developer/Lessons/dotnet/FinShark/api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/usermacmini1/Developer/Lessons/dotnet/FinShark/api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/usermacmini1/Developer/Lessons/dotnet/FinShark/api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/usermacmini1/Developer/Lessons/dotnet/FinShark/api/obj/Debug/net9.0/api.sourcelink.json
