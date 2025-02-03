@@ -34,7 +34,7 @@ namespace api.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById([FromRoute]int id)
         {
-            var stock = await _context.Stocks.FindAsync(id);
+            var stock = await _stockRepo.GetByIdAsync(id);
             if(stock == null) return NotFound();
             return Ok(stock.ToStockDto());
         }

@@ -10,6 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer(); // Swagger uchun kerak
 builder.Services.AddSwaggerGen(); // Swagger qo'shish
 
+builder.Services.AddControllers().AddNewtonsoftJson(options=>{
+    options.SerializerSettings.ReferenceLoopHandling=Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+});
+
 // Database connection
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
